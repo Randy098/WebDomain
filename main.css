@@ -13,7 +13,9 @@ body {
     align-items: center;
     min-height: 100vh;
     background: black;
-    background: url(4k-tech.jpg);
+    background: url(welcome.gif);
+    background-size: cover;
+    font-size: 30px;
 }
 
 .header {
@@ -31,10 +33,10 @@ body {
 .navbar a {
     position: relative;
     font-size: 16px;
-    color: whitesmoke;
+    color: darkgreen;
     text-decoration: none;
     font-weight: 500;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .navbar a::after {
@@ -118,7 +120,7 @@ body {
     height: 90%;
     background: transparent;
     padding: 50px;
-    color: black;
+    color: rgb(249, 249, 249);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -144,7 +146,7 @@ body {
 
 .social-icons a i {
     font-size: 25px;
-    color: black;
+    color: brown;
     margin-right: 10px;
     transition: .5s ease;
 }

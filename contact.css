@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: url(beautiful.jpg);
+    background: url(WWW\ -\ earth.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     font-size: 20px;
@@ -11,4 +11,24 @@ body{
 .container{
     width: 80%;
     margin: 50px;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: none;
+    color: aqua;
+}
+h1 {
+    margin-bottom: 10px;
+}
+.container {
+    margin-bottom: 40px;
 }
