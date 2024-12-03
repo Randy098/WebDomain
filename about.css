@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(self\ image\ -\ technology.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.container{
+    width: 80%;
+    margin: 50px;
+}
